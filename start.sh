@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/backend/code
-sudo docker build -t backend_pmt .
+cd /home/ubuntu/backendtest/code
+sudo docker build -t backendtest_pmt .
 cd ..
 sudo docker compose up -d
