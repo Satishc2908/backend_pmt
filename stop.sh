@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu/backend/
+cd /home/ubuntu/backendtest/
 sudo docker compose down
-sudo docker rmi backend_pmt
+sudo docker rmi backendtest_pmt
